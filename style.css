@@ -1,0 +1,157 @@
+@charset="utf-8"
+body{
+	background-color: #f6f5f5
+	margin:0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 100%;
+	height:100vh;
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-size: 100%
+
+}
+nav{
+	display: flex;
+	background-image: url(background.png);
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	background-color:initial;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+}
+nav-ul{
+	display: flex;
+}
+nav-ul-li-a{
+	margin: 30px;
+	font-family: myriad pro regular;
+	color: #505050;
+	font-size: 25px;
+	font-weight: 700;
+}
+.logo{
+	font-family: roadtest;
+	color: #000000
+	font-size:45px;
+	font-weight: 20px;
+	font-color:#FFFFFF;
+	background-image: url(logo.png);
+}
+.active{
+	font-weight:bold;
+	color: #2d2a2a
+}
+
+.text-cantrainer p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color:#6d6d6d;
+	font-size: 22px;
+}
+.text-contrainer p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #1a1a1a;
+	font-size: 60px;
+}
+.text-container p:nth-child(3){
+	font-family: myriad pro regular;
+	color: #403e3e;
+	font-size: 30px;
+	line-height: 30px;
+}
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+.text-container{
+	position: absolute;
+	left:13%;
+	top:40%;
+	transform: translate(-13%,40%);
+}
+.text-contrainer button{
+	width: 130px;
+	height: 42px;
+	border-radius:10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+	margin: 0px 10px;
+}
+.hire-btn{
+	border: 2px solid #373636;
+	color: #373636;
+}
+.download-my-cv{
+	background-color: #0b0b0b;
+	color: #ffffff;
+	border: none;
+}
+.btton:active{
+	transform: scale(1.1);
+}
+.model{
+	height: 560px;
+	position:absolute;
+	bottom: 40px;
+	left:70%;
+	transform:translateX(-70%);
+}
+.about-conatainer{
+	width: 80%;
+	height: 330px;
+	background-color: #FFFFFF;
+	border-radius:2a0px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7% auto 20px auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
